@@ -69,7 +69,7 @@ All steps are the same as before, except that:
 
 The models predicted 40% (missing) business types. The Growth & Marketing team thus gained the capability to custom-message these merchants as per the needs of their respective businesses. 
 
-
+*Note: Not all data/models/parameters are revealed, due to org's governance policy.*
 
 
 
