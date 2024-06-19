@@ -67,7 +67,7 @@ All steps are the same as before, except that:
 
 <p align="center"><img width="600" alt="c4" src="https://github.com/shithi30/Prediction_of_Missing_BizTypes_NLP/assets/43873081/14e5d7c2-a0f6-4564-8f0c-4f277d61a0db"></p>
 
-The models predicted 40% (missing) business types. The Growth & Marketing team thus gained the capability to custom-message these merchants as per the needs of their respective businesses. 
+The models identified 40% (missing) business types. The Growth & Marketing team thus gained the capability to custom-message these merchants as per the needs of their respective businesses. 
 
 *Note: Not all data/models/parameters are revealed, due to org's governance policy.*
 
