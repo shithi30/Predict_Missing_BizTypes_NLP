@@ -3,7 +3,7 @@
 - I train *Word2Vec* NLP models using existing data - journal descriptions, shop names and supplier names.
 - After training, I poll among inferences from all 3 models, label missing business types and deploy via *Streamlit*.
 
-**Tech Stack:** `Python` `TensorFlow` `Keras` `PostgreSQL` `h5` `Streamlit`
+**Tech Stack:** Languages - `Python` , ML Libs - `TensorFlow, Keras, h5, Streamlit` , Database & Wrappers - `PostgreSQL, SQLalchemy, Psycopg2`
 
 ### A. Implementation Using Journal Descriptions
 
