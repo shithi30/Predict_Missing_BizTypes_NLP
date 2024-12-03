@@ -1,3 +1,10 @@
+*TallyKhata* platforms's 60% merchants would voluntarily fill in their business types (grocery, pharmacy, electronics, fashion house etc), and for identifying the rest:
+
+- I train *Word2Vec* NLP models using existing data - journal descriptions, shop names and supplier names.
+- After training, I poll among inferences from all 3 models, label missing business types and deploy via a *Streamlit* app.
+
+**Tech Stack:** 
+
 ### A. Implementation Using Journal Descriptions
 
 **Step-01:** Preparation of the Dataset
