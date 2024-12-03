@@ -5,6 +5,15 @@
 <p align="center"><img width="440" alt="c4" src="https://github.com/shithi30/Prediction_of_Missing_BizTypes_NLP/assets/43873081/03933441-676c-4bbb-967a-e284d75a999b"></p>
 
 - **a.** First, we replace all Bangla digits by their English counterparts.
+- **b.** Second, we ensure the strings contain all Bangla words (in version-01) and no punctuation marks. 
+- **c.** Third, we remove unnecessary whitespaces from the training strings. 
+- **d.** Fourth, we aggregate the last 7 day's available descriptions against available merchants. 
+- **e.** Finally, we randomly shuffle the dataset for a representative distribution in each sample.
+
+**Step-02:** Fitting the Word2Vec Model
+
+- **a.** Use IDE: Google Colab and mount to Google Drive, for fetching training data
+
   ```Python
   # import
   import io
@@ -18,18 +27,7 @@
   from google.colab import drive
   drive.mount('/content/drive')
   ```
-
-- **b.** Second, we ensure the strings contain all Bangla words (in version-01) and no punctuation marks. 
-- **c.** Third, we remove unnecessary whitespaces from the training strings. 
-- **d.** Fourth, we aggregate the last 7 day's available descriptions against available merchants. 
-- **e.** Finally, we randomly shuffle the dataset for a representative distribution in each sample.
-
-**Step-02:** Fitting the Word2Vec Model
-
-- **a.** Use IDE: Google Colab and mount to Google Drive, for fetching training data
-
-<p align="center"><img width="360" alt="c4" src="https://github.com/shithi30/Prediction_of_Missing_BizTypes_NLP/assets/43873081/f98c4983-5320-460b-b497-409d90e7bb90"></p>
-
+  
 - **b.** Set hyperparameters for Word2Vec model
 
 <p align="center"><img width="220" alt="c4" src="https://github.com/shithi30/Prediction_of_Missing_BizTypes_NLP/assets/43873081/3ccb6476-bf74-4b23-ba18-452eadc572d3"></p>
