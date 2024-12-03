@@ -4,7 +4,21 @@
 
 <p align="center"><img width="440" alt="c4" src="https://github.com/shithi30/Prediction_of_Missing_BizTypes_NLP/assets/43873081/03933441-676c-4bbb-967a-e284d75a999b"></p>
 
-- **a.** First, we replace all Bangla digits by their English counterparts. 
+- **a.** First, we replace all Bangla digits by their English counterparts.
+  ```Python
+  # import
+  import io
+  import csv
+  import tensorflow as tf
+  import numpy as np
+  from tensorflow.keras.preprocessing.text import Tokenizer
+  from tensorflow.keras.preprocessing.sequence import pad_sequences
+  import matplotlib.pyplot as plt
+  # mount
+  from google.colab import drive
+  drive.mount('/content/drive')
+  ```
+
 - **b.** Second, we ensure the strings contain all Bangla words (in version-01) and no punctuation marks. 
 - **c.** Third, we remove unnecessary whitespaces from the training strings. 
 - **d.** Fourth, we aggregate the last 7 day's available descriptions against available merchants. 
