@@ -10,7 +10,7 @@
 - **d.** Fourth, we aggregate the last 7 day's available descriptions against available merchants. 
 - **e.** Finally, we randomly shuffle the dataset for a representative distribution in each sample.
 
-**Step-02:** Fitting the Word2Vec Model
+**Step-02:** Fitting the *Word2Vec* Model
 
 - **a.** Use IDE: Google Colab and mount to Google Drive, for fetching training data
 
@@ -28,7 +28,7 @@
   drive.mount('/content/drive')
   ```
   
-- **b.** Set hyperparameters for Word2Vec model
+- **b.** Set hyperparameters for *Word2Vec* model
 
 <p align="center"><img width="220" alt="c4" src="https://github.com/shithi30/Prediction_of_Missing_BizTypes_NLP/assets/43873081/3ccb6476-bf74-4b23-ba18-452eadc572d3"></p>
 
@@ -64,7 +64,7 @@ All steps are the same as before, except that:
 - **b.** For English names, we convert all the letters to lowercase for the sake of cleanliness of data. 
 - **c.** Additionally, we classify on 7 classes and remove separators (e.g., _ ) from class names. 
 
-**Step-02:** Fitting the Word2Vec Model 
+**Step-02:** Fitting the *Word2Vec* Model 
 
 **Steps - a, b, c, d** are as before. 
 
