@@ -4,8 +4,8 @@
 
 <p align="center"><img width="440" alt="c4" src="https://github.com/shithi30/Prediction_of_Missing_BizTypes_NLP/assets/43873081/03933441-676c-4bbb-967a-e284d75a999b"></p>
 
-- **a.** First, we replace all Bangla digits by their English counterparts.
-- **b.** Second, we ensure the strings contain all Bangla words (in version-01) and no punctuation marks. 
+- **a.** First, we replace all Bengali digits by their English counterparts.
+- **b.** Second, we ensure the strings contain all Bengali words (in version-01) and no punctuation marks. 
 - **c.** Third, we remove unnecessary whitespaces from the training strings. 
 - **d.** Fourth, we aggregate the last 7 day's available descriptions against available merchants. 
 - **e.** Finally, we randomly shuffle the dataset for a representative distribution in each sample.
@@ -60,7 +60,7 @@
 <p align="center"><img width="463" alt="c4" src="https://github.com/shithi30/Prediction_of_Missing_BizTypes_NLP/assets/43873081/de4772de-518b-431b-9a17-dbbd12673452"></p>
 
 All steps are the same as before, except that: 
-- **a.** We consider both Bangla and English names.
+- **a.** We consider both Bengali and English names.
 - **b.** For English names, we convert all the letters to lowercase for the sake of cleanliness of data. 
 - **c.** Additionally, we classify on 7 classes and remove separators (e.g., _ ) from class names. 
 
@@ -81,7 +81,7 @@ All steps are the same as before, except that:
 
 The models identified 40% (missing) business types. The Growth & Marketing team thus gained the capability to custom-message these merchants as per the needs of their respective businesses. 
 
-*Note: Not all data/models/parameters are revealed, due to org's governance policy.*
+*<strong>Note:</strong> Not all data/models/parameters are revealed, due to org's governance policy.*
 
 
 
